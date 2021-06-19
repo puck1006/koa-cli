@@ -1,0 +1,33 @@
+{
+  "name": "spicy-koa-cli",
+  "version": "1.0.6",
+  "description": "koa setup",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "rm -rf ./wang && koacli"
+  },
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "bin": "./bin/index.js",
+  "type": "module",
+  "keywords": [
+    "koa"
+  ],
+  "engines": {
+    "node": ">12.0.0"
+  },
+  "author": "spicycurry",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "execa": "^5.1.1",
+    "inquirer": "^7.1.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "prettier": "^2.3.1",
+    "spicy-koa-cli": "^1.0.4"
+  }
+}
